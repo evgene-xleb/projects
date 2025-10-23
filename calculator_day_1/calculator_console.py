@@ -1,18 +1,22 @@
 import math
 
-#Простой функционал
-#Сложение, вычитание, умножение, деление
+# Простой функционал
+# Сложение, вычитание, умножение, деление
 
-def mult(a, b): #умножение
+
+def mult(a, b):  # умножение
     return a * b
 
-def addition(a, b): #сложение
+
+def addition(a, b):  # сложение
     return a + b
 
-def subtraction(a, b): #вычитание
+
+def subtraction(a, b):  # вычитание
     return a - b
 
-def division(a, b): #делене
+
+def division(a, b):  # делене
     return a // b
 
 
@@ -29,5 +33,10 @@ def calculator():
     elif choise == 3:
         print(addition(num1, num2))
     elif choise == 4:
-        print(subtraction(num1, num2))    
+        print(subtraction(num1, num2))
+
+
 calculator()
+
+
+print("Hello World ")
